@@ -9,7 +9,6 @@ class GridImageTest < ActionController::IntegrationTest
     document.image = file
     document.save_attached_files
     get document.image.url  
-    puts response.body
     assert_equal document.image.file.read, response.body
   end
 end

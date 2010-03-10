@@ -198,3 +198,49 @@ ActionController::RoutingError (No route matches "/griddleware/hello_world" with
   -e:1
 
 Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-10 16:50:03) [GET]
+
+ActionController::RoutingError (No route matches "/grid/documents/2180589260/image/baboon.jpg" with {:method=>:get}):
+  ./../lib/griddleware/grid_image.rb:13:in `call'
+  /test/rails_root/test/integration/grid_image_test.rb:11:in `test_/grid/document/:id/:name/:style_:get'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit/ui/testrunnermediator.rb:46:in `run_suite'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit/ui/console/testrunner.rb:67:in `start_mediator'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit/ui/console/testrunner.rb:41:in `start'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit/ui/testrunnerutilities.rb:29:in `run'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit/autorunner.rb:216:in `run'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit/autorunner.rb:12:in `run'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit.rb:278
+  -e:1
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-10 16:50:50) [GET]
+
+ActionController::RoutingError (No route matches "/grid/documents/2150118660/image/baboon.jpg" with {:method=>:get}):
+  ./../lib/griddleware/grid_image.rb:13:in `call'
+  /test/rails_root/test/integration/grid_image_test.rb:11:in `test_/grid/document/:id/:name/:style_:get'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit/ui/testrunnermediator.rb:46:in `run_suite'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit/ui/console/testrunner.rb:67:in `start_mediator'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit/ui/console/testrunner.rb:41:in `start'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit/ui/testrunnerutilities.rb:29:in `run'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit/autorunner.rb:216:in `run'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit/autorunner.rb:12:in `run'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/test/unit.rb:278
+  -e:1
+
+Rendering rescues/layout (not_found)
