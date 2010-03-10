@@ -2,7 +2,7 @@ module Griddleware
   module BrowserHelper
   
     def url
-      grid_key
+      "/grid/#{grid_key}"
     end
   
   end

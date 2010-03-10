@@ -14,7 +14,7 @@ class TestGriddleware < Test::Unit::TestCase
     end
     
     should "default to url returning the grid_key" do
-      assert_equal @document.image.grid_key, @document.image.url
+      assert_equal "/grid/#{@document.image.grid_key}", @document.image.url
     end
     
   end
