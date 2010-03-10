@@ -10,7 +10,7 @@ class TestGriddleware < Test::Unit::TestCase
     end
     
     should "have a url method" do
-      assert @document.respond_to? :url
+      assert @document.image.respond_to? :url
     end
     
     should "default to url returning the grid_key" do

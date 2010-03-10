@@ -6,4 +6,8 @@ class Document
     :thumb => "50x50#"
   }
   
+  def id
+    object_id
+  end
+  
 end
