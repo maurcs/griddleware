@@ -5,7 +5,7 @@ require 'shoulda'
 gem 'activesupport', '2.3.5'
 require 'active_support'
 
-gem 'griddle', '0.0.5'
+gem 'griddle', '0.0.6'
 require 'griddle'
 
 require 'mongo'
@@ -19,6 +19,8 @@ require 'griddleware'
 TEST_DB = 'griddleware-test' unless Object.const_defined?("TEST_DB")
  
 db = Mongo::Connection.new.db(TEST_DB)
+
+Griddle.database = db
 
 class Test::Unit::TestCase
   
