@@ -8,7 +8,7 @@ require 'shoulda'
 gem 'activesupport', '2.3.5'
 require 'active_support'
 
-gem 'griddle', '0.0.6'
+gem 'griddle', '0.0.7'
 require 'griddle'
 
 require 'mongo'
