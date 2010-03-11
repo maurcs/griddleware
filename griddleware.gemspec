@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{griddleware}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Marcus Rosentrater"]
-  s.date = %q{2010-03-10}
+  s.date = %q{2010-03-11}
   s.description = %q{Rack middleware to assists in serving of GridFS files}
   s.email = %q{conradmr@gmail.com}
   s.extra_rdoc_files = [
@@ -27,7 +27,7 @@ Gem::Specification.new do |s|
      "lib/griddleware.rb",
      "lib/griddleware/browser_helper.rb",
      "lib/griddleware/grid_image.rb",
-     "test/fixtures/document.rb",
+     "test/fixtures/baboon.jpg",
      "test/helper.rb",
      "test/rails_helper.rb",
      "test/rails_root/README",
@@ -61,7 +61,6 @@ Gem::Specification.new do |s|
      "test/rails_root/public/500.html",
      "test/rails_root/public/favicon.ico",
      "test/rails_root/public/images/rails.png",
-     "test/rails_root/public/index.html",
      "test/rails_root/public/javascripts/application.js",
      "test/rails_root/public/javascripts/controls.js",
      "test/rails_root/public/javascripts/dragdrop.js",
@@ -92,10 +91,10 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.6}
   s.summary = %q{Rack middleware to assists in serving of GridFS files}
   s.test_files = [
-    "test/fixtures/document.rb",
-     "test/helper.rb",
+    "test/helper.rb",
      "test/rails_helper.rb",
      "test/rails_root/app/controllers/application_controller.rb",
+     "test/rails_root/app/controllers/documents_controller.rb",
      "test/rails_root/app/helpers/application_helper.rb",
      "test/rails_root/app/models/document.rb",
      "test/rails_root/config/boot.rb",

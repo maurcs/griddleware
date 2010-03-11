@@ -3,7 +3,10 @@ class Document
   include Griddle::HasGridAttachment
   
   has_grid_attachment :image, :styles => {
-    :thumb => "50x50#"
+    :resized => "150x300!",
+    :fitted => "150x150",
+    :cropped => '60x50#',
+    :cropped_square => '50x50#'
   }
   
   def id

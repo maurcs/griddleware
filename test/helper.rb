@@ -8,7 +8,7 @@ require 'shoulda'
 gem 'activesupport', '2.3.5'
 require 'active_support'
 
-gem 'griddle', '0.0.7'
+gem 'griddle', '>= 0.0.7'
 require 'griddle'
 
 require 'mongo'
@@ -24,7 +24,7 @@ Griddle.database = db
 class Test::Unit::TestCase
   
   def self.all_models
-    Dir[File.dirname(__FILE__) + "/fixtures/*.rb"].each do |f|
+    Dir[File.join(File.dirname(__FILE__), 'rails_root', 'app', 'models', '*.rb')].each do |f|
       require File.expand_path(f)
     end
   end
@@ -40,4 +40,13 @@ class Test::Unit::TestCase
       super
     end
   end
+end
+
+def style_expectations
+  {
+    :resized => "150 x 300",
+    :fitted => "150 x 114",
+    :cropped => '60 x 50',
+    :cropped_square => '50 x 50'
+  }
 end

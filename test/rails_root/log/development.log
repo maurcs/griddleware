@@ -1,0 +1,41 @@
+
+
+Processing DocumentsController#index (for 127.0.0.1 at 2010-03-11 12:22:36) [GET]
+
+NoMethodError (undefined method `save' for #<Document:0x10118bc60>):
+  app/controllers/documents_controller.rb:7:in `index'
+  ./../lib/griddleware/grid_image.rb:23:in `call'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/mrosentrater/homebrew/Cellar/ruby-enterprise-edition/2009.10/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (136.2ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DocumentsController#index (for 127.0.0.1 at 2010-03-11 12:22:46) [GET]
+Rendering documents/index
+Completed in 2161ms (View: 36, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DocumentsController#index (for 127.0.0.1 at 2010-03-11 12:24:47) [GET]
+Rendering documents/index
+Completed in 731ms (View: 29, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DocumentsController#index (for 127.0.0.1 at 2010-03-11 12:29:55) [GET]
+Rendering documents/index
+Completed in 828ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DocumentsController#index (for 127.0.0.1 at 2010-03-11 13:28:27) [GET]
+Rendering documents/index
+Completed in 902ms (View: 10, DB: 0) | 200 OK [http://localhost/]

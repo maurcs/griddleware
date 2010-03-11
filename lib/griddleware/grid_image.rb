@@ -22,8 +22,6 @@ module Griddleware
       else
         @app.call(env)
       end
-      # @status, @headers, @response = @app.call(env)
-      # [@status, @headers, "Hello World!"]
     end
     
     def each(&block)

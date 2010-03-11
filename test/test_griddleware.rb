@@ -21,8 +21,16 @@ class TestGriddleware < Test::Unit::TestCase
       assert_equal "/grid/documents/#{@document.id}/image/baboon.jpg", @document.image.url
     end
     
-    should "default to url for styles returning the grid_key" do
-      assert_equal "/grid/documents/#{@document.id}/image/thumb/baboon.jpg", @document.image.thumb.url
+    context "with styles" do
+      
+      style_expectations.each do |style|
+            
+        should "return a url for style #{style[0]}" do
+          assert_equal "/grid/documents/#{@document.id}/image/#{style[0]}/baboon.jpg", @document.image.send(style[0]).url
+        end
+        
+      end
+      
     end
     
   end
