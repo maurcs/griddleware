@@ -10,7 +10,7 @@ begin
     gem.email = "conradmr@gmail.com"
     gem.homepage = "http://github.com/meanmarcus/griddleware"
     gem.authors = ["Marcus Rosentrater"]
-    gem.add_dependency "griddle", ">= 0.0.6"
+    gem.add_dependency "griddle", ">= 0.0.11"
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end

@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{griddleware}
-  s.version = "0.0.2"
+  s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Marcus Rosentrater"]
@@ -33,8 +33,10 @@ Gem::Specification.new do |s|
      "test/rails_root/README",
      "test/rails_root/Rakefile",
      "test/rails_root/app/controllers/application_controller.rb",
+     "test/rails_root/app/controllers/documents_controller.rb",
      "test/rails_root/app/helpers/application_helper.rb",
      "test/rails_root/app/models/document.rb",
+     "test/rails_root/app/views/documents/index.html.erb",
      "test/rails_root/config/boot.rb",
      "test/rails_root/config/database.yml",
      "test/rails_root/config/environment.rb",
@@ -49,6 +51,7 @@ Gem::Specification.new do |s|
      "test/rails_root/config/initializers/session_store.rb",
      "test/rails_root/config/locales/en.yml",
      "test/rails_root/config/routes.rb",
+     "test/rails_root/db/development.sqlite3",
      "test/rails_root/db/seeds.rb",
      "test/rails_root/db/test.sqlite3",
      "test/rails_root/doc/README_FOR_APP",
@@ -59,6 +62,7 @@ Gem::Specification.new do |s|
      "test/rails_root/public/404.html",
      "test/rails_root/public/422.html",
      "test/rails_root/public/500.html",
+     "test/rails_root/public/_index.html",
      "test/rails_root/public/favicon.ico",
      "test/rails_root/public/images/rails.png",
      "test/rails_root/public/javascripts/application.js",
