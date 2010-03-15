@@ -14,4 +14,4 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2010 Marcus Rosentrater. See LICENSE for details.
+Copyright (c) 2010 meanmarcus. See LICENSE for details.

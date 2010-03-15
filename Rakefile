@@ -5,12 +5,12 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "griddleware"
-    gem.summary = %Q{Rack middleware to assists in serving of GridFS files}
-    gem.description = %Q{Rack middleware to assists in serving of GridFS files}
+    gem.summary = %Q{Rack middleware to assists in serving of GridFileSystem files}
+    gem.description = %Q{Rack middleware to assists in serving of GridFileSystem files}
     gem.email = "conradmr@gmail.com"
     gem.homepage = "http://github.com/meanmarcus/griddleware"
-    gem.authors = ["Marcus Rosentrater"]
-    gem.add_dependency "griddle", ">= 0.0.11"
+    gem.authors = ["meanmarcus", "Matt Mongeau"]
+    gem.add_dependency "griddle", ">= 0.1.0"
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
