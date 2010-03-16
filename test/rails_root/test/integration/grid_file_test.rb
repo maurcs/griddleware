@@ -1,6 +1,6 @@
 require File.dirname(__FILE__) + '/../test_helper'
 
-class GridImageTest < ActionController::IntegrationTest
+class GridFileTest < ActionController::IntegrationTest
   
   context "on GET to /grid/document/:id/:name/:style" do
     

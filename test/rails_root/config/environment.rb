@@ -10,7 +10,7 @@ Rails::Initializer.run do |config|
   
   config.load_paths += Dir.glob(File.join(RAILS_ROOT, "..", "..", "lib"))
   
-  config.middleware.use "Griddleware::GridImage"
+  config.middleware.use "Griddleware::GridFile"
   
   # Settings in config/environments/* take precedence over those specified here.
   # Application configuration should go into files in config/initializers

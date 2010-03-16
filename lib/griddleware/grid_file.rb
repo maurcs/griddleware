@@ -1,5 +1,5 @@
 module Griddleware
-  class GridImage
+  class GridFile
     
     def initialize(app)
       @app = app
