@@ -21,7 +21,7 @@ A class with a grid attachment:
 
     class Document
       
-      include Griddle::Attachment
+      include Griddle::HasGridAttachment
       
       has_grid_attachment :image, :styles=>{
         :thumb => "50x50#"

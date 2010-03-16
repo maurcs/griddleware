@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{griddleware}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["meanmarcus", "Matt Mongeau"]
@@ -14,19 +14,19 @@ Gem::Specification.new do |s|
   s.email = %q{conradmr@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
-     "README.rdoc"
+     "README.markdown"
   ]
   s.files = [
     ".document",
      ".gitignore",
      "LICENSE",
-     "README.rdoc",
+     "README.markdown",
      "Rakefile",
      "VERSION",
      "griddleware.gemspec",
      "lib/griddleware.rb",
      "lib/griddleware/browser_helper.rb",
-     "lib/griddleware/grid_image.rb",
+     "lib/griddleware/grid_file.rb",
      "test/fixtures/baboon.jpg",
      "test/helper.rb",
      "test/rails_helper.rb",
@@ -84,7 +84,7 @@ Gem::Specification.new do |s|
      "test/rails_root/test/fixtures/baboon.jpg",
      "test/rails_root/test/fixtures/fox.jpg",
      "test/rails_root/test/fixtures/sample.pdf",
-     "test/rails_root/test/integration/grid_image_test.rb",
+     "test/rails_root/test/integration/grid_file_test.rb",
      "test/rails_root/test/performance/browsing_test.rb",
      "test/rails_root/test/test_helper.rb",
      "test/test_griddleware.rb"
@@ -114,7 +114,7 @@ Gem::Specification.new do |s|
      "test/rails_root/config/initializers/session_store.rb",
      "test/rails_root/config/routes.rb",
      "test/rails_root/db/seeds.rb",
-     "test/rails_root/test/integration/grid_image_test.rb",
+     "test/rails_root/test/integration/grid_file_test.rb",
      "test/rails_root/test/performance/browsing_test.rb",
      "test/rails_root/test/test_helper.rb",
      "test/test_griddleware.rb"
